@@ -1,13 +1,7 @@
 Description :
 ============
-I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller by NXP (founded by Philips)) for interface of LED, 7 Segment LED, LED Dot Matrix, Switch, Keypad & LCD, UART, Timer, Interrupt. Other features are not implemented. 
+I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) such as overhead water flow controller using level sensors. 
 
-Project using LPC2138, included with design, development, simulated and tested, using a simulator, are as follows :
-====================================================================================================================
-1: Scalable 5 floor single elevator controller by using LPC2138 microcontroller.
-2: Implementation of function operation of scanf, sscanf, printf, sprintf, gets, puts, putchar and getchar using Embedded C in LPC2138 microcontroller.
-3: Single user account authentication with authentication timeout.
- 
 CAUTION:
 ========
 Schematics and simulation is done by Proteus CAD. NOT EXPERIMENTED IN REAL TIME ENVIRONMENT.
@@ -38,7 +32,7 @@ Some reference that I refered for LPC2138 Application design and development, ar
 3: Embedded C - Book authored by Michael J. Pont.
 4: Reusable Firmware Development: A Practical Approach to APIs, HALs and Drivers - Book authored by Jacob Beningo. 
 5: https://www.embedded.com/building-reusable-device-drivers-for-microcontrollers/ - Building reusable device drivers for microcontrollers.
-6: https://www.nxp.com/docs/en/data-sheet/LPC2131_32_34_36_38.pdf - LPC2131/32/34/36/38 - Single-chip 16/32-bit microcontrollers; 32/64/128/256/512 kB ISP/IAP flash with 10-bit ADC and DAC,Rev. 5.1 — 29 July 2011 Product data sheet. 
+6: https://www.nxp.com/docs/en/data-sheet/LPC2131_32_34_36_38.pdf - LPC2131/32/34/36/38 - Single-chip 16/32-bit microcontrollers; 32/64/128/256/512 kB ISP/IAP flash with 10-bit ADC and DAC,Rev. 5.1 â€” 29 July 2011 Product data sheet. 
 7: Hitachi HD44780U - LCD product data sheet.
 8: http://www.electronicwings.com/arm7  - ARM 7 Inside - LPC2148.
 
