@@ -1,0 +1,198 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Arunkumar Murugewaran, Self DIY, LIC=JL28G-V088R-EVV1R-K7UZW-VCYLI-DRJ53
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARM.DLL V5.36.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.14.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\codes\LPC2138-repo\00_projects\water_level_ctrl_04\water_level_ctrl_04_src\water_level_ctrl_04.uvproj
+Project File Date:  05/02/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling Startup.s...
+compiling appl.c...
+appl.c(95): warning:  #177-D: variable "cur_sw_ch_id"  was declared but never referenced
+    uint8_t cur_sw_ch_id;
+appl.c(918): warning:  #111-D: statement is unreachable
+                        break;
+appl.c(1030): warning:  #111-D: statement is unreachable
+                           break;       
+appl.c(1048): warning:  #186-D: pointless comparison of unsigned integer with zero
+                     if((temp_data == 0 || ( water_lvl_data.cur_water_lvl >= MIN_WATER_LVL_TRIG_TURN_ON_PUMP && water_lvl_data.cur_water_lvl < MAX_WATER_LVL_TRIG_TURN_ON_PUMP) || 
+appl.c(1066): warning:  #111-D: statement is unreachable
+                          break;
+appl.c(1094): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                           if((water_lvl_data.cur_water_lvl >= MIN_WATER_LVL_TRIG_TURN_ON_PUMP && water_lvl_data.cur_water_lvl < MAX_WATER_LVL_TRIG_TURN_ON_PUMP) || 
+appl.c(1150): warning:  #111-D: statement is unreachable
+                                                   break;
+appl.c(1169): warning:  #111-D: statement is unreachable
+                          break;        
+appl.c(1178): warning:  #111-D: statement is unreachable
+                                            break;
+appl.c(1715): warning:  #177-D: variable "ret_status"  was declared but never referenced
+        uint16_t ret_status;   
+appl.c(1737): warning:  #177-D: variable "ret_status"  was declared but never referenced
+        uint16_t ret_status;
+appl.c: 11 warnings, 0 errors
+compiling dev_oper.c...
+dev_oper.c(403): warning:  #186-D: pointless comparison of unsigned integer with zero
+        else if(read_dev_id >= BEGIN_COMM_DEV_ID && read_dev_id <= END_COMM_DEV_ID )
+dev_oper.c(510): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if(last_read_char >= BEGIN_CTRL_CHARS_ASCII_CODE && last_read_char <= END_CTRL_CHARS_ASCII_CODE)
+dev_oper.c(389): warning:  #177-D: variable "receive_data_service_type"  was declared but never referenced
+        char_type_read_enable_flag, dev_type, receive_data_service_type;
+dev_oper.c(772): warning:  #186-D: pointless comparison of unsigned integer with zero
+        !((dev_src_basic_oper_func >= START_INPUT_DEV_BASIC_OPER_FUNC && dev_src_basic_oper_func <= END_INPUT_DEV_BASIC_OPER_FUNC) || 
+dev_oper.c(781): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if(dev_src_basic_oper_func >= START_INPUT_DEV_BASIC_OPER_FUNC && dev_src_basic_oper_func <= END_INPUT_DEV_BASIC_OPER_FUNC )
+dev_oper.c(834): warning:  #186-D: pointless comparison of unsigned integer with zero
+                 if((data_dev_basic_oper_func_ptr->dev_id < BEGIN_COMM_DEV_ID || data_dev_basic_oper_func_ptr->dev_id > END_COMM_DEV_ID))
+dev_oper.c(1454): warning:  #186-D: pointless comparison of unsigned integer with zero
+         if(!((dev_data_ptr->dev_id >= BEGIN_COMM_DEV_ID && dev_data_ptr->dev_id <= END_COMM_DEV_ID) || 
+dev_oper.c(1482): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if(!(dev_data_ptr->dev_id >= BEGIN_COMM_DEV_ID && dev_data_ptr->dev_id <= END_COMM_DEV_ID))
+dev_oper.c: 8 warnings, 0 errors
+compiling gen_std_lib_part_1.c...
+gen_std_lib_part_1.c(175): warning:  #111-D: statement is unreachable
+        return SUCCESS;
+gen_std_lib_part_1.c(1251): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if(char_index >= 0 && char_index <= 9)
+gen_std_lib_part_1.c(1291): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if(char_index >= 0 && char_index <= 9)
+gen_std_lib_part_1.c(1936): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(test_char >= BEGIN_CTRL_CHARS_ASCII_CODE && test_char <= END_CTRL_CHARS_ASCII_CODE)
+gen_std_lib_part_1.c: 4 warnings, 0 errors
+compiling gen_std_lib_part_2.c...
+gen_std_lib_part_2.c(318): warning:  #550-D: variable "frac_part_str_len"  was set but never used
+      int16_t int_part_str_len, frac_part_str_len ;      
+gen_std_lib_part_2.c(484): warning:  #550-D: variable "stream_buf_before_proc_pos"  was set but never used
+        uint8_t num_chars_read = 0, stream_buf_before_proc_pos;
+gen_std_lib_part_2.c(1486): warning:  #111-D: statement is unreachable
+        return NULL_DATA_PTR;
+gen_std_lib_part_2.c: 3 warnings, 0 errors
+compiling io_lib.c...
+io_lib.c(348): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status;
+io_lib.c(396): warning:  #550-D: variable "ret_status"  was set but never used
+          uint16_t ret_status = SUCCESS;
+io_lib.c(674): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS;
+io_lib.c(722): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS;
+io_lib.c(769): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status = SUCCESS;
+io_lib.c(930): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+io_lib.c(970): warning:  #550-D: variable "ret_status"  was set but never used
+     uint16_t ret_status;
+io_lib.c(1070): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status;
+io_lib.c(1110): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+io_lib.c(1147): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+io_lib.c(1182): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS;
+io_lib.c: 11 warnings, 0 errors
+compiling isr.c...
+compiling lcd.c...
+compiling main.c...
+conf_misc_ids.h(49): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Timer_0,                      INTP_REQ_TMR_CH_0,           INTERRUPT_REQ_NA,               VECTOR_SLOT_NA },
+conf_misc_ids.h(50): warning:  #1296-D: extended constant initialiser used
+                                                                       {(uint32_t )ISR_Timer_1,                      INTP_REQ_TMR_CH_1,           INTERRUPT_REQ_VECTOR_IRQ,       VECTOR_SLOT_06},
+conf_misc_ids.h(56): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_UART_0,                                INTP_REQ_UART_CH_0,          INTERRUPT_REQ_NA,               VECTOR_SLOT_NA },  
+conf_misc_ids.h(57): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_UART_1,                                INTP_REQ_UART_CH_1,          INTERRUPT_REQ_NA,               VECTOR_SLOT_NA },
+conf_misc_ids.h(79): warning:  #1296-D: extended constant initialiser used
+                                                                         {(uint32_t )ISR_PLL,                                INTP_REQ_PLL,            INTERRUPT_REQ_NA,               VECTOR_SLOT_NA }, 
+conf_misc_ids.h(87): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Ext_Interrupt_0,    INTP_REQ_EXT_INTP_CH_0,          INTERRUPT_REQ_NA,              VECTOR_SLOT_NA }, 
+conf_misc_ids.h(88): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Ext_Interrupt_1,    INTP_REQ_EXT_INTP_CH_1,          INTERRUPT_REQ_NA,              VECTOR_SLOT_NA }, 
+conf_misc_ids.h(89): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Ext_Interrupt_2,    INTP_REQ_EXT_INTP_CH_2,          INTERRUPT_REQ_NA,              VECTOR_SLOT_NA },  
+conf_misc_ids.h(90): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Ext_Interrupt_3,    INTP_REQ_EXT_INTP_CH_3,          INTERRUPT_REQ_VECTOR_IRQ,      VECTOR_SLOT_05 }, 
+conf_misc_ids.h(107): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t )ISR_Brown_Out_Detect,                                INTP_REQ_BOD,            INTERRUPT_REQ_NA,             VECTOR_SLOT_NA },
+main.c(162): warning:  #111-D: statement is unreachable
+        return SUCCESS;
+main.c(182): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+main.c(248): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status; 
+main.c(288): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status = SUCCESS ;
+main.c: 14 warnings, 0 errors
+compiling sw_lib.c...
+sw_lib.c(49): warning:  #550-D: variable "ret_status"  was set but never used
+            uint16_t ret_status = FAILURE;
+sw_lib.c(256): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS;
+sw_lib.c(499): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+sw_lib.c(656): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status = SUCCESS;
+sw_lib.c(701): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t   ret_status;  
+sw_lib.c(948): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS;
+sw_lib.c(1011): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status = SUCCESS ;        
+sw_lib.c(1166): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+sw_lib.c(1211): warning:  #550-D: variable "ret_status"  was set but never used
+         uint16_t ret_status;
+sw_lib.c: 9 warnings, 0 errors
+compiling timer.c...
+timer.c(974): warning:  #177-D: variable "i"  was declared but never referenced
+        uint8_t i;
+timer.c: 1 warning, 0 errors
+compiling uart.c...
+uart.c(61): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(207): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(254): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(422): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(694): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(847): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status = SUCCESS;
+uart.c(981): warning:  #177-D: variable "ret_status"  was declared but never referenced
+      uint16_t ret_status;
+uart.c(1260): warning:  #550-D: variable "ret_status"  was set but never used
+        uint16_t ret_status;
+uart.c(1367): warning:  #550-D: variable "ret_status"  was set but never used
+    uint16_t ret_status;
+uart.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=61896 RO-data=252 RW-data=888 ZI-data=1512  
+FromELF: creating hex file...
+".\Objects\water_level_ctrl_04.axf" - 0 Error(s), 70 Warning(s).
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

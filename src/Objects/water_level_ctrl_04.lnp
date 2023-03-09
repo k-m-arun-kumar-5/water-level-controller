@@ -1,0 +1,17 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\appl.o"
+".\objects\dev_oper.o"
+".\objects\gen_std_lib_part_1.o"
+".\objects\gen_std_lib_part_2.o"
+".\objects\io_lib.o"
+".\objects\isr.o"
+".\objects\lcd.o"
+".\objects\main.o"
+".\objects\sw_lib.o"
+".\objects\timer.o"
+".\objects\uart.o"
+--strict --scatter ".\Objects\water_level_ctrl_04.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\water_level_ctrl_04.map" -o .\Objects\water_level_ctrl_04.axf

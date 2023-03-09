@@ -1,0 +1,234 @@
+Dependencies for Project 'water_level_ctrl_04', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\appl.c)(0x62711774)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\appl.o --omf_browse .\objects\appl.crf --depend .\objects\appl.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+I (appl.h)(0x62711648)
+F (.\appl.h)(0x62711648)()
+F (.\conf_appl.h)(0x626FFF29)()
+F (.\conf_dev_chs.h)(0x62651A87)()
+F (.\conf_io.h)(0x62651A8F)()
+F (.\conf_misc_ids.h)(0x626FFF0B)()
+F (.\conf_port.h)(0x62651AA3)()
+F (.\constants.h)(0x625AA184)()
+F (.\dev_oper.c)(0x61C03DE4)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\dev_oper.o --omf_browse .\objects\dev_oper.crf --depend .\objects\dev_oper.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\dev_oper.h)(0x62651AAC)()
+F (.\gen_std_lib.h)(0x62651ABA)()
+F (.\gen_std_lib_part_1.c)(0x61C03E06)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\gen_std_lib_part_1.o --omf_browse .\objects\gen_std_lib_part_1.crf --depend .\objects\gen_std_lib_part_1.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\gen_std_lib_part_2.c)(0x6259931F)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\gen_std_lib_part_2.o --omf_browse .\objects\gen_std_lib_part_2.crf --depend .\objects\gen_std_lib_part_2.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025469E)
+F (.\io_lib.c)(0x625D3000)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\io_lib.o --omf_browse .\objects\io_lib.crf --depend .\objects\io_lib.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\io_lib.h)(0x62651AC4)()
+F (.\isr.c)(0x626695CF)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\isr.h)(0x62651AD0)()
+F (.\lcd.c)(0x625BCE04)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\lcd.h)(0x62651AE4)()
+F (.\main.c)(0x62712C1B)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+I (conf_dev_chs.h)(0x62651A87)
+I (conf_misc_ids.h)(0x626FFF0B)
+F (.\main.h)(0x625BEF1F)()
+F (.\sw_lib.c)(0x6263C10A)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\sw_lib.o --omf_browse .\objects\sw_lib.crf --depend .\objects\sw_lib.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\sw_lib.h)(0x62651B15)()
+F (.\sys_status.h)(0x626FB92C)()
+F (.\timer.c)(0x626FC6DE)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+F (.\timer.h)(0x62651B4C)()
+F (.\uart.c)(0x6262B4F5)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (main.h)(0x625BEF1F)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602546A6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x6025469E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x6025469E)
+I (constants.h)(0x625AA184)
+I (sys_status.h)(0x626FB92C)
+I (conf_io.h)(0x62651A8F)
+I (sw_lib.h)(0x62651B15)
+I (lcd.h)(0x62651AE4)
+I (uart.h)(0x62651B59)
+I (timer.h)(0x62651B4C)
+I (io_lib.h)(0x62651AC4)
+I (conf_port.h)(0x62651AA3)
+I (conf_appl.h)(0x626FFF29)
+I (isr.h)(0x62651AD0)
+I (gen_std_lib.h)(0x62651ABA)
+I (dev_oper.h)(0x62651AAC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025469E)
+F (.\uart.h)(0x62651B59)()
