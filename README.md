@@ -26,7 +26,7 @@ Toolchains that I used for LPC2138 Application design and development are as fol
 2: PC tool for Programming Flash of LPC2138                                 - Flash Magic.
 3: LCD                                                                      - JHD162A.
 4: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 7 (32 bit).
-5: CAD and Simulations                                                      - Proteus 8.3 Pro SP2 and/or Proteus 8.11 SP1. 
+5: CAD and Simulations                                                      - Proteus 8.11 SP1. 
 6: Code editor                                                              - Notepad++.
 7: Documentation                                                            - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
 
