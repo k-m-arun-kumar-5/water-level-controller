@@ -1,6 +1,6 @@
 Description :
 ============
-I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) such as overhead water overflow controller using level sensors. 
+I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) such as overhead water level controller using level sensors. 
 
 Design
 ======
