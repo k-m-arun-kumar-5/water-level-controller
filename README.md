@@ -17,18 +17,15 @@ In all my respective repositories, I just shared my works that I worked as the l
        
 My Thanks and Tribute :
 ========================
-
 I thank to my family, Friends, Teachers, People behind the toolchains and references that I used, all those who directly or indirectly supported me and/or helped me and/or my family, Nature and God. My tribute to my family, Friends, Teachers, People behind the toolchains and references that I used, Nature, Jimmy Dog, God and all those, who directly or indirectly help and/or support me and/or my family.
 
 Toolchains that I used for LPC2138 Application design and development are as follows :
 ======================================================================================
 1: IDE for Application development of LPC2138                               - MDK-ARM Professional Keil uvision 5. 
-2: PC tool for Programming Flash of LPC2138                                 - Flash Magic.
-3: LCD                                                                      - JHD162A.
-4: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 7 (32 bit).
-5: CAD and Simulations                                                      - Proteus 8.11 SP1. 
-6: Code editor                                                              - Notepad++.
-7: Documentation                                                            - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
+2: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 7 (32 bit).
+3: CAD and Simulations                                                      - Proteus 8.11 SP1. 
+4: Code editor                                                              - Notepad++.
+5: Documentation                                                            - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
 
 Some reference that I refered for LPC2138 Application design and development, are as follows :
 ==============================================================================================
@@ -44,7 +41,7 @@ Some reference that I refered for LPC2138 Application design and development, ar
 
 Note :
 ======
-Kindly read in the source codes, if mentioned, about the Program Description or Purpose, Known Bugs, Caution & Notes and Documentations. Some applications are also tested in a LPC2138 development board.
+Kindly read in the source codes, if mentioned, about the Program Description or Purpose, Known Bugs, Caution & Notes and Documentations. 
 
 My Repositories Web Link :
 ==========================
